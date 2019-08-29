@@ -15,7 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
-#below (line19)is reading out or returning the programmer_hash hash
+#below (line19)is reading out or returning the value of the :grace_hopper key
 programmer_hash[:grace_hopper]
 end
 
@@ -37,6 +37,7 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
+#below(line41)the combination of keys returns the value of the :known_for key
      programmer_hash[:alan_kay][:known_for]
 end
 
@@ -56,7 +57,8 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-     programmer_hash[:dennis_ritchie][:languages]= "C"
+#below(line61)is a combination of keys that alter or update 
+     programmer_hash[:dennis_ritchie][:languages] = "C"
 end
 
 def adding_matz
