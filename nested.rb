@@ -57,7 +57,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-#below(line61)is a combination of keys that alter or update 
+#below(line61)is a combination of keys that returns the value of Dennis Ritchie's ":language" key as a string
      programmer_hash[:dennis_ritchie][:languages] = "C"
 end
 
@@ -85,7 +85,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-
+#below(line89)programmer_hash *hash* is updated or added to and returned on line 90
 programmer_hash[:yukihiro_matsumoto] = {:known_for=>"Ruby",:languages=>["LISP", "C"]}
 programmer_hash
 end
@@ -109,9 +109,9 @@ def changing_alan
         }
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
-     alans_new_info = "GUI"
+     alans_new_info = "GUI" #This is the variable set change the alan_kay's ":known_for" key value
 programmer_hash[:alan_kay][:known_for] = alans_new_info
-programmer_hash
+programmer_hash #returning newly updated hash
 end
 
 def adding_to_dennis
