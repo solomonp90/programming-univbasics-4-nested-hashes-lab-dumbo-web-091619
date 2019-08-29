@@ -15,7 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
-#below (line19)is reading out or returning the programmer_hash 
+#below (line19)is reading out or returning the programmer_hash hash
 programmer_hash[:grace_hopper]
 end
 
