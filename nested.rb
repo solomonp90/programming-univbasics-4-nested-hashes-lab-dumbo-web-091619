@@ -82,7 +82,7 @@ def adding_matz
         }
      }
 
-programmer_hash[:grace_hopper] = programmer_hash[:yukihiro_matsumoto][:known_for=>"Ruby"]
+programmer_hash[:grace_hopper][:known_for=>"COBOL"][:languages=>["COBOL","FORTRAN"]]=
 end
 
 def changing_alan
